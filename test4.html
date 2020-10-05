@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Iddaa Programı</title>
+
+    <link rel="stylesheet" href="./test4.css">
+
+    <script src="./test4.js"></script>
+</head>
+
+<body>
+    <div>
+        <table class="tableCss">
+            <tr>
+                <th colspan="7">
+                    <span class="dot"></span> &nbsp;&nbsp;&nbsp; Futbol Programı
+                </th>
+
+            </tr>
+            <tr id="head">
+                <th>LİG</th>
+                <th>SAAT</th>
+                <th>MBS</th>
+                <th>EV SAHİBİ-KONUK TAKIM</th>
+                <th>1</th>
+                <th>0</th>
+                <th>2</th>
+            </tr>
+            <tr id="match1">
+                <td>UCL</td>
+                <td>20:00</td>
+                <td>
+                    <button>3</button>
+                </td>
+                <td>
+                    <div><span class="team1">IS Halmia </span><br><span class="team2">Eslovs BK</span></div>
+                </td>
+                <td>1.55</td>
+                <td>3.75</td>
+                <td>3.40</td>
+            </tr>
+            <tr id="match2">
+                <td>JSF</td>
+                <td>20:00</td>
+                <td>
+                    <button>3</button>
+                </td>
+                <td>
+                    <div><span class="team1">Hobro</span><br><span class="team2">Viborg</span></div>
+                </td>
+                <td>2.95</td>
+                <td>3.00</td>
+                <td>1.85</td>
+            </tr>
+            <tr id="match3">
+                <td>TRN</td>
+                <td>20:00</td>
+                <td>
+                    <button>3</button>
+                </td>
+                <td>
+                    <div><span class="team1">Hassleholm</span><br><span class="team2">Kristanstad</span></div>
+                </td>
+                <td>1.85</td>
+                <td>3.20</td>
+                <td>2.70</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="showCoupon">
+        <div class="p-5">
+            <p id='totalRateHeader'>
+                Kuponum | T.oran 0.00
+            </p>
+            <div>
+                <span class="arrow up"></span>
+            </div>
+        </div>
+        <div class="couponDetail ">
+            <div class="couponList ">
+                <div class="p-3">
+                    <p>Sistem:</p>
+                    <p style="color:gray" id="totalMatch">Maç:0 Kolon:1</p>
+                </div>
+                <div class="p-2">
+                    <button class="button system">3</button>
+                    <div class="select-wrap">
+                        <label>Misli</label>
+                        <select name="misli" id="misli" style="width: 100%;">
+                        </select>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <p>Kupon Bedeli:</p>
+                    <p id='factor'>1</p>
+                </div>
+                <div class="p-2">
+                    <p>Toplam Oran:</p>
+                    <p id="totalRate">0,00</p>
+                </div>
+                <div class="p-2">
+                    <p>Maksimum Kazanç:</p>
+                    <p class="match" id="maxGain">0 TL</p>
+                </div>
+
+
+            </div>
+            <div class="couponFooter centeredTag">
+                <div class="warning p-5">
+                    <p> MBS kuralı nedeni ile en az <span id="ruleMbs">3</span> maç daha eklemelisiniz</p>
+                </div>
+                <div class="play p-3">
+                    <p> HEMEN OYNA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

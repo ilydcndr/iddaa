@@ -1,0 +1,192 @@
+*{
+    margin:0
+}
+body{
+    background-color: rgb(44, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.tableCss{
+    background-color: black;
+    color: white;
+    width:60%
+}
+.dot {
+    padding: 6px 6px;
+    background-color:rgb(33, 189, 66);
+    border-radius: 50%;
+    display: inline-block;
+  }
+.close{
+    background-color:rgb(224, 60, 31);
+    color: white;
+    text-align: center;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+tr:nth-child(2) {
+    background: rgb(22, 158, 56);
+  }
+td,th{  
+    padding: 3% 3%;
+}
+th:first-child{
+    text-align: left;
+}
+tr td:nth-child(1){
+    color: gray;
+}
+tr td:nth-child(2){
+    color: rgb(33, 189, 66);
+}
+button{
+    background-color: rgb(22, 131, 233);
+    color: white;
+    border: none;
+    border-radius: 20%;
+}
+.outlined{
+border: 1px solid black;
+color: black;
+background-color: white;
+}
+tr td:nth-child(n+5){
+    align-items: center;
+}
+tr td:nth-child(n+5):hover{
+    background-color: rgb(22, 158, 56);
+}
+tr td:nth-child(n+5).getItem:hover{
+    background-color:rgb(230, 197, 11); 
+}
+
+
+/* show mycoupon */
+.arrow {
+    margin-left: 40%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+   
+  }
+  .up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.showCoupon{  
+    width:35%;  
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;  
+}
+.showCoupon > div:first-child{
+    font-weight: bold;
+    background-color: rgb(230, 197, 11); 
+    border-radius: 25px 25px 0 0;
+   display: flex;
+   justify-content: space-between;
+}
+.couponDetail{
+    display: none;
+    background-color: rgb(207, 206, 198);
+}
+.system{
+    margin-top: 3%;
+    height: 3%;
+    background-color: black;
+}
+.couponList > div{
+    display: flex;
+    justify-content: space-between;
+}
+.addedMatch{
+  display: flex; 
+  justify-content: space-between;
+}
+  .couponFooter{
+  color: white;
+  padding: 0.5% 5%;
+  }
+  .centeredTag{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .warning{
+    background-color: rgb(224, 60, 31) !important;
+   
+  }
+  .play{
+      cursor: pointer;
+      margin-top: 3%;
+      background-color: rgba(133, 131, 119, 0.336);
+  }
+  .p-5{
+    padding: 5%;
+  }
+  .p-3{
+      padding: 2% 5%;
+  }
+  .p-2{
+      padding: 0.1% 5%;
+  }
+  .ptb-3{
+      padding-top: 3%;
+      padding-bottom: 3%;
+  }
+  .ml-1{
+     margin-left:0.5rem ; 
+  }
+  .total{
+      color:rgb(33, 189, 66); 
+      font-weight: bold;
+  }
+  .match{
+      color: rgb(33, 189, 66);
+  }
+  .couponInfo{
+
+    background-color: white;
+  }
+  .couponInfo div{
+      display: flex;
+  }
+  
+/* misli css */
+.select-wrap 
+{
+  border: 1px solid #777;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width:100px;
+  background-color:#ebebeb;
+}
+
+.select-wrap label
+{
+  font-size:12px;
+  /* padding: 1px 0px 0; */
+  position: absolute;
+}
+
+select
+{
+  background-color: #ebebeb;
+  border:0px;
+  padding: 15% 0;
+}
+
+
+  /* js */
+  .getItem{      
+    background-color:rgb(230, 197, 11) !important; 
+}
